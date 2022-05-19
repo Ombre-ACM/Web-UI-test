@@ -1,0 +1,138 @@
+2022-05-19 22:41:31,462 keys.py INFO __init__ 初始化浏览器 Chrome
+2022-05-19 22:41:33,304 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:41:35,197 keys.py INFO click 正在点击按钮，元素xpath，元素值//div[@class="wx-bar__close"]
+2022-05-19 22:41:35,236 keys.py INFO input 正在输入内容  不存在的车，元素name，元素值keyword
+2022-05-19 22:41:35,289 keys.py INFO click 正在点击按钮，元素xpath，元素值//button[text()="搜索"]
+2022-05-19 22:41:35,478 keys.py INFO assert_text 正在断言，预期：不存在的车
+2022-05-19 22:41:40,516 keys.py ERROR assert_text 断言失败，与预期不符合：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class="tag"]"}
+  (Session info: chrome=101.0.4951.41)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x009DB8F3+2406643]
+	Ordinal0 [0x0096AF31+1945393]
+	Ordinal0 [0x0085C748+837448]
+	Ordinal0 [0x008892E0+1020640]
+	Ordinal0 [0x0088957B+1021307]
+	Ordinal0 [0x008B6372+1205106]
+	Ordinal0 [0x008A42C4+1131204]
+	Ordinal0 [0x008B4682+1197698]
+	Ordinal0 [0x008A4096+1130646]
+	Ordinal0 [0x0087E636+976438]
+	Ordinal0 [0x0087F546+980294]
+	GetHandleVerifier [0x00C49612+2498066]
+	GetHandleVerifier [0x00C3C920+2445600]
+	GetHandleVerifier [0x00A74F2A+579370]
+	GetHandleVerifier [0x00A73D36+574774]
+	Ordinal0 [0x00971C0B+1973259]
+	Ordinal0 [0x00976688+1992328]
+	Ordinal0 [0x00976775+1992565]
+	Ordinal0 [0x0097F8D1+2029777]
+	BaseThreadInitThunk [0x7742FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77C17A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C17A4E+238]
+
+2022-05-19 22:41:45,546 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:41:46,437 keys.py INFO click 正在点击按钮，元素xpath，元素值//div[@class="wx-bar__close"]
+2022-05-19 22:41:46,475 keys.py INFO input 正在输入内容  丰田，元素name，元素值keyword
+2022-05-19 22:41:46,532 keys.py INFO click 正在点击按钮，元素xpath，元素值//button[text()="搜索"]
+2022-05-19 22:41:46,581 keys.py INFO assert_text 正在断言，预期：丰田
+2022-05-19 22:41:46,792 keys.py INFO sleep 正在强制等待 2秒
+2022-05-19 22:41:48,800 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:41:49,617 keys.py INFO click 正在点击按钮，元素xpath，元素值//div[@class="wx-bar__close"]
+2022-05-19 22:41:49,659 keys.py INFO input 正在输入内容  福特，元素name，元素值keyword
+2022-05-19 22:41:49,707 keys.py INFO click 正在点击按钮，元素xpath，元素值//button[text()="搜索"]
+2022-05-19 22:41:49,750 keys.py INFO assert_text 正在断言，预期：福特
+2022-05-19 22:41:49,968 keys.py INFO sleep 正在强制等待 2秒
+2022-05-19 22:41:51,976 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:41:52,792 keys.py INFO mouse_stop_at 正在鼠标悬停，元素xpath，元素值//span[text()="北京"]
+2022-05-19 22:41:54,074 keys.py INFO click 正在点击按钮，元素xpath，元素值//a[@data-index="1" and text()="广州"]
+2022-05-19 22:41:54,161 keys.py INFO assert_text 正在断言，预期：广州
+2022-05-19 22:41:54,195 keys.py INFO sleep 正在强制等待 2秒
+2022-05-19 22:41:56,208 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:41:57,161 keys.py INFO mouse_stop_at 正在鼠标悬停，元素xpath，元素值//span[text()="广州"]
+2022-05-19 22:41:58,478 keys.py INFO click 正在点击按钮，元素xpath，元素值//a[@data-index="2" and text()="成都"]
+2022-05-19 22:41:58,534 keys.py INFO assert_text 正在断言，预期：成都
+2022-05-19 22:41:58,577 keys.py INFO sleep 正在强制等待 2秒
+2022-05-19 22:42:00,588 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:42:01,472 keys.py INFO mouse_stop_at 正在鼠标悬停，元素xpath，元素值//span[text()="成都"]
+2022-05-19 22:42:02,765 keys.py INFO click 正在点击按钮，元素xpath，元素值//a[@data-index="3" and text()="上海"]
+2022-05-19 22:42:02,833 keys.py INFO assert_text 正在断言，预期：上海
+2022-05-19 22:42:02,873 keys.py INFO sleep 正在强制等待 2秒
+2022-05-19 22:42:04,881 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:42:05,748 keys.py INFO click 正在点击按钮，元素xpath，元素值//span[text()="本田"]
+2022-05-19 22:42:05,806 keys.py INFO assert_text 正在断言，预期：本田
+2022-05-19 22:42:06,011 keys.py INFO sleep 正在强制等待 2秒
+2022-05-19 22:42:08,016 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:42:08,813 keys.py INFO click 正在点击按钮，元素xpath，元素值//span[text()="宝马"]
+2022-05-19 22:42:08,871 keys.py INFO assert_text 正在断言，预期：宝马
+2022-05-19 22:42:09,027 keys.py INFO sleep 正在强制等待 2秒
+2022-05-19 22:42:11,030 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:42:11,941 keys.py INFO click 正在点击按钮，元素xpath，元素值//span[text()="奔驰"]
+2022-05-19 22:42:11,998 keys.py INFO assert_text 正在断言，预期：奔驰
+2022-05-19 22:42:12,198 keys.py INFO sleep 正在强制等待 2秒
+2022-05-19 22:42:14,210 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:42:15,058 keys.py INFO click 正在点击按钮，元素xpath，元素值//*[text()="我要买车"]
+2022-05-19 22:42:15,113 keys.py INFO click 正在点击按钮，元素xpath，元素值//*[@class="tag-item" and text()="奥迪"]
+2022-05-19 22:42:15,325 keys.py INFO click 正在点击按钮，元素xpath，元素值//*[@class="tag-item" and text()="奥迪A4L"]
+2022-05-19 22:42:15,365 keys.py INFO mouse_stop_at 正在鼠标悬停，元素xpath，元素值//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[1]
+2022-05-19 22:42:16,655 keys.py INFO click 正在点击按钮，元素xpath，元素值//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[1]/div/div[4]
+2022-05-19 22:42:16,701 keys.py INFO mouse_stop_at 正在鼠标悬停，元素xpath，元素值//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[2]
+2022-05-19 22:42:18,005 keys.py INFO click 正在点击按钮，元素xpath，元素值//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[2]/div/div[5]
+2022-05-19 22:42:18,053 keys.py INFO mouse_stop_at 正在鼠标悬停，元素xpath，元素值//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[3]
+2022-05-19 22:42:19,336 keys.py INFO click 正在点击按钮，元素xpath，元素值//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[3]/div/div[3]
+2022-05-19 22:42:19,394 keys.py INFO mouse_stop_at 正在鼠标悬停，元素xpath，元素值//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[4]
+2022-05-19 22:42:20,670 keys.py INFO click 正在点击按钮，元素xpath，元素值//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[4]/div/div[2]
+2022-05-19 22:42:20,739 keys.py INFO mouse_stop_at 正在鼠标悬停，元素xpath，元素值//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[5]
+2022-05-19 22:42:22,029 keys.py INFO click 正在点击按钮，元素xpath，元素值//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[5]/div/div[1]
+2022-05-19 22:42:22,071 keys.py INFO sleep 正在强制等待 3秒
+2022-05-19 22:42:25,081 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:42:25,907 keys.py INFO click 正在点击按钮，元素xpath，元素值//*[text()="我要卖车"]
+2022-05-19 22:42:25,986 keys.py INFO switch_handle 正在切换句柄
+2022-05-19 22:42:26,002 keys.py INFO input 正在输入内容  15757828888，元素xpath，元素值//input[@class="phone-input js-phone-input"]
+2022-05-19 22:42:50,929 keys.py INFO sleep 正在强制等待 2秒
+2022-05-19 22:42:52,940 keys.py INFO click 正在点击按钮，元素xpath，元素值//i[@class="icon-checkbox--gray"]
+2022-05-19 22:42:52,982 keys.py INFO click 正在点击按钮，元素xpath，元素值//button[@class="phone-btn-1 free-sell-btn"]
+2022-05-19 22:42:53,026 keys.py INFO click 正在点击按钮，元素xpath，元素值//img[@class="brand-selection__hot-item__image"]
+2022-05-19 22:42:53,878 keys.py INFO click 正在点击按钮，元素xpath，元素值//div[@class="brand-selection__type-selection__list-item"]
+2022-05-19 22:42:53,967 keys.py INFO click 正在点击按钮，元素xpath，元素值//div[@class="brand-selection__model-selection__list-item"]
+2022-05-19 22:42:54,102 keys.py INFO sleep 正在强制等待 1秒
+2022-05-19 22:42:55,102 keys.py INFO input 正在输入内容  1，元素xpath，元素值//input[@placeholder="请输入行驶里程"]
+2022-05-19 22:42:55,161 keys.py INFO click 正在点击按钮，元素xpath，元素值//div[@class="car-condition__item__date__label"]
+2022-05-19 22:42:55,200 keys.py INFO click 正在点击按钮，元素xpath，元素值//div[@class="car-condition__item__date__year"]
+2022-05-19 22:42:55,235 keys.py INFO click 正在点击按钮，元素xpath，元素值//div[@class="car-condition__item__date__month car-condition__item__date--right"]
+2022-05-19 22:42:55,283 keys.py INFO sleep 正在强制等待 1秒
+2022-05-19 22:42:56,290 keys.py INFO click 正在点击按钮，元素xpath，元素值//i[@class="appoint-info__time__time-item__checkbox--default"]
+2022-05-19 22:42:56,333 keys.py INFO sleep 正在强制等待 3秒
+2022-05-19 22:42:59,349 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:43:00,546 keys.py INFO click 正在点击按钮，元素xpath，元素值//*[text()="瓜子金融"]
+2022-05-19 22:43:00,604 keys.py INFO switch_handle 正在切换句柄
+2022-05-19 22:43:00,617 keys.py INFO sleep 正在强制等待 3秒
+2022-05-19 22:43:03,618 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:43:29,564 keys.py INFO click 正在点击按钮，元素xpath，元素值//*[text()="毛豆新车"]
+2022-05-19 22:43:29,636 keys.py INFO switch_handle 正在切换句柄
+2022-05-19 22:43:29,709 keys.py INFO sleep 正在强制等待 3秒
+2022-05-19 22:43:32,719 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:43:34,080 keys.py INFO mouse_stop_at 正在鼠标悬停，元素xpath，元素值//span[text()="严选车"]
+2022-05-19 22:43:35,391 keys.py INFO sleep 正在强制等待 1秒
+2022-05-19 22:43:36,396 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:43:37,379 keys.py INFO mouse_stop_at 正在鼠标悬停，元素xpath，元素值//span[text()="最新上架"]
+2022-05-19 22:43:38,689 keys.py INFO sleep 正在强制等待 1秒
+2022-05-19 22:43:39,704 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:43:40,504 keys.py INFO mouse_stop_at 正在鼠标悬停，元素xpath，元素值//span[text()="降价急售"]
+2022-05-19 22:43:41,822 keys.py INFO sleep 正在强制等待 1秒
+2022-05-19 22:43:42,823 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:43:43,622 keys.py INFO mouse_stop_at 正在鼠标悬停，元素xpath，元素值//span[text()="准新车"]
+2022-05-19 22:43:44,934 keys.py INFO sleep 正在强制等待 1秒
+2022-05-19 22:43:45,949 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:43:46,777 keys.py INFO mouse_stop_at 正在鼠标悬停，元素xpath，元素值//span[text()="练手车"]
+2022-05-19 22:43:48,081 keys.py INFO sleep 正在强制等待 1秒
+2022-05-19 22:43:49,095 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:43:49,949 keys.py INFO mouse_stop_at 正在鼠标悬停，元素xpath，元素值//span[text()="SUV"]
+2022-05-19 22:43:51,273 keys.py INFO sleep 正在强制等待 1秒
+2022-05-19 22:43:52,273 keys.py INFO open 正在打开网站 http://www.guazi.com
+2022-05-19 22:43:53,093 keys.py INFO click 正在点击按钮，元素xpath，元素值//img[@class="card-pic"]
+2022-05-19 22:43:53,364 keys.py INFO sleep 正在强制等待 1秒
+2022-05-19 22:43:54,380 keys.py INFO switch_handle 正在切换句柄
+2022-05-19 22:43:54,413 keys.py INFO click 正在点击按钮，元素xpath，元素值//a[@class="greenbtn js-bargain"]
+2022-05-19 22:43:54,542 keys.py INFO sleep 正在强制等待 3秒
+2022-05-19 22:43:57,554 keys.py INFO quit 正在关闭

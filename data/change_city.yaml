@@ -1,0 +1,47 @@
+-
+  stop_at:
+    name: 'xpath'
+    value: '//span[text()="北京"]'
+  click:
+    name: 'xpath'
+    value: '//a[@data-index="1" and text()="广州"]'
+  assert_text:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[1]/div[1]/div[1]/span'
+    expect: "广州"
+  result:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[1]/div[1]/div[1]/span'
+  assert_equal: "广州"
+
+-
+  stop_at:
+    name: 'xpath'
+    value: '//span[text()="广州"]'
+  click:
+    name: 'xpath'
+    value: '//a[@data-index="2" and text()="成都"]'
+  assert_text:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[1]/div[1]/div[1]/span'
+    expect: "成都"
+  result:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[1]/div[1]/div[1]/span'
+  assert_equal: "成都"
+
+-
+  stop_at:
+    name: 'xpath'
+    value: '//span[text()="成都"]'
+  click:
+    name: 'xpath'
+    value: '//a[@data-index="3" and text()="上海"]'
+  assert_text:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[1]/div[1]/div[1]/span'
+    expect: "上海"
+  result:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[1]/div[1]/div[1]/span'
+  assert_equal: "上海"

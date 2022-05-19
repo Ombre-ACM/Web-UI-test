@@ -1,0 +1,37 @@
+-
+  brand:
+    name: 'xpath'
+    value: '//*[@class="tag-item" and text()="奥迪"]'
+  series:
+    name: 'xpath'
+    value: '//*[@class="tag-item" and text()="奥迪A4L"]'
+  stop_at_age:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[1]'
+  age:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[1]/div/div[4]'
+  stop_at_miles:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[2]'
+  miles:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[2]/div/div[5]'
+  stop_at_liter:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[3]'
+  liter:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[3]/div/div[3]'
+  stop_at_shift:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[4]'
+  shift:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[4]/div/div[2]'
+  stop_at_type:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[5]'
+  type:
+    name: 'xpath'
+    value: '//*[@id="pageWrapper"]/div[1]/div[3]/div[1]/div[2]/div[4]/div[2]/div[1]/div[1]/div[5]/div/div[1]'

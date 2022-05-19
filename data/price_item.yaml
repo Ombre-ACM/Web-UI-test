@@ -1,0 +1,15 @@
+-
+  price_item: '//*[@class="price-item"][1]'
+  # 第一个标签价格低于4万
+  price_down: 0
+  price_up: 4
+-
+  price_item: '//*[@class="price-item"][2]'
+  # 第二个标签价格 4-8
+  price_down: 4
+  price_up: 8
+-
+  price_item: '//*[@class="price-item"][3]'
+  # 第三个标签价格 8-15
+  price_down: 8
+  price_up: 15

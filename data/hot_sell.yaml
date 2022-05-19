@@ -1,0 +1,17 @@
+-
+  value: '//span[text()="严选车"]'
+
+-
+  value: '//span[text()="最新上架"]'
+
+-
+  value: '//span[text()="降价急售"]'
+
+-
+  value: '//span[text()="准新车"]'
+
+-
+  value: '//span[text()="练手车"]'
+
+-
+  value: '//span[text()="SUV"]'
